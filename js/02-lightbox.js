@@ -26,4 +26,5 @@ const lightbox = new SimpleLightbox(".gallery", {
   captionPosition: "bottom",
   captionDelay: 250,
 });
+
 console.log(galleryItems);
