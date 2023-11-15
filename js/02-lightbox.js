@@ -20,10 +20,10 @@ function createMarkup(arr) {
     )
     .join("");
 }
-console.log(galleryItems);
 
 const lightbox = new SimpleLightbox(".gallery", {
   captionData: "alt",
-  captionDelay: 250,
   captionPosition: "bottom",
+  captionDelay: 250,
 });
+console.log(galleryItems);
