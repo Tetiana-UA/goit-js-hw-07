@@ -22,7 +22,7 @@ function createMarkup(arr) {
 }
 
 const lightbox = new SimpleLightbox(".gallery a", {
-  captionData: "alt",
+  captionsData: "alt",
   captionPosition: "bottom",
   captionDelay: 250,
 });
