@@ -21,7 +21,7 @@ function createMarkup(arr) {
     .join("");
 }
 
-const lightbox = new SimpleLightbox(".gallery", {
+const lightbox = new SimpleLightbox(".gallery a", {
   captionData: "alt",
   captionPosition: "bottom",
   captionDelay: 250,
